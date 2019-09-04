@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Listado"
+             x:Class="SQLiteJuguetes.Views.Listado">
+  <ContentPage.Content>
+    <ListView
+      x:Name="listadoJuguetes"
+      IsPullToRefreshEnabled="True"
+      ItemTapped="ItemSeleccionado"
+      Refreshing="RecargarLista">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout>
+
+              <Label
+                Text="{Binding Nombre}"
+                FontAttributes="Bold"/>
+              <Label
+                Text="{Binding Tipo}"/>
+              <Label
+                Text="{Binding Precio}"
+                TextColor="Red"/>
+
+
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </ContentPage.Content>
+</ContentPage>

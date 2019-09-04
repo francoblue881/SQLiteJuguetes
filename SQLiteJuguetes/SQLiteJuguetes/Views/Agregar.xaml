@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Agregar"
+             x:Class="SQLiteJuguetes.Views.Agregar">
+  <ContentPage.Content>
+    <StackLayout>
+      <Label 
+        Text="Nombre"
+        FontAttributes="Bold"/>
+      <Entry
+        Placeholder="(escriba aquí)"
+        x:Name="txtNombre"/>
+
+      <Label 
+        Text="Tipo"
+        FontAttributes="Bold"/>
+      <Entry
+        Placeholder="(escriba aquí)"
+        x:Name="txtTipo"/>
+
+      <Label 
+        Text="Precio"
+        FontAttributes="Bold"/>
+      <Entry
+        Placeholder="(escriba aquí)"
+        x:Name="txtPrecio"/>
+      <Button 
+        Text="Agregar"
+        Clicked="Button_Clicked"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

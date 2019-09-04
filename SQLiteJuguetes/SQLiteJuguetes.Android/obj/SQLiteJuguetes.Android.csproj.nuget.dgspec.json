@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Fran\\source\\repos\\SQLite\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes.Android\\SQLiteJuguetes.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Fran\\source\\repos\\SQLite\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes.Android\\SQLiteJuguetes.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fran\\source\\repos\\SQLite\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes.Android\\SQLiteJuguetes.Android.csproj",
+        "projectName": "SQLiteJuguetes.Android",
+        "projectPath": "C:\\Users\\Fran\\source\\repos\\SQLite\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes.Android\\SQLiteJuguetes.Android.csproj",
+        "packagesPath": "C:\\Users\\Fran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fran\\source\\repos\\SQLite\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {
+              "C:\\Users\\Fran\\source\\repos\\SQLite\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes.csproj": {
+                "projectPath": "C:\\Users\\Fran\\source\\repos\\SQLite\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.304370-pre8, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\Fran\\source\\repos\\SQLite\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fran\\source\\repos\\SQLite\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes.csproj",
+        "projectName": "SQLiteJuguetes",
+        "projectPath": "C:\\Users\\Fran\\source\\repos\\SQLite\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes.csproj",
+        "packagesPath": "C:\\Users\\Fran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fran\\source\\repos\\SQLite\\SQLiteJuguetes\\SQLiteJuguetes\\SQLiteJuguetes\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[1.1.5.188, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.304370-pre8, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.5.231, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

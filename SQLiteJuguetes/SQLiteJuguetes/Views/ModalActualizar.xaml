@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pop:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pop="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             x:Class="SQLiteJuguetes.Views.ModalActualizar">
+    <ContentPage.Content>
+    <StackLayout BackgroundColor="Orange">
+      <Label 
+        Text="ACTUALICE LOS DATOS"
+        FontAttributes="Bold"
+        FontSize="Large"/>
+
+      <Label 
+        Text="Nombre"
+        FontAttributes="Bold"/>
+      <Entry
+        Placeholder="(escriba aquí)"
+        x:Name="txtNombre"/>
+
+      <Label 
+        Text="Tipo"
+        FontAttributes="Bold"/>
+      <Entry
+        Placeholder="(escriba aquí)"
+        x:Name="txtTipo"/>
+
+      <Label 
+        Text="Precio"
+        FontAttributes="Bold"/>
+      <Entry
+        Placeholder="(escriba aquí)"
+        x:Name="txtPrecio"/>
+      <Button 
+        Text="Actualizar"
+        Clicked="btn_actualizar"/>
+    </StackLayout>
+  </ContentPage.Content>
+</pop:PopupPage>

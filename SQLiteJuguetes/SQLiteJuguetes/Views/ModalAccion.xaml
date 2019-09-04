@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pop:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pop="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             x:Class="SQLiteJuguetes.Views.ModalAccion">
+  <ContentPage.Content>
+    <StackLayout BackgroundColor="Orange">
+      <Label Text="¿Quew accion desea hacer ?"/>
+      <Button 
+        Text="Eliminar"
+        Clicked="btn_eliminar"/>
+      <Button 
+            Text="Actualizar"
+            Clicked="btn_actualizar"/>
+      <Button
+            Text="Regresar"
+            Clicked="btn_regresar"/>
+    </StackLayout>
+  </ContentPage.Content>
+</pop:PopupPage>
